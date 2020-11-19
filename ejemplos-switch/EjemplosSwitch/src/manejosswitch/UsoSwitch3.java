@@ -27,10 +27,11 @@ public class UsoSwitch3 {
         
         System.out.println("Ingrese el nombre de una ciudad del Ecuador");
         String nombre = entrada.nextLine();
-        
+        // nombre = "atacames"
         char valor = nombre.charAt(0); // obtener el primer caracter de una
                                        // cadena
-                
+        // L    o   j   a
+        // 0    1   2   3
         switch(valor){
             case 'a':
             case'A':

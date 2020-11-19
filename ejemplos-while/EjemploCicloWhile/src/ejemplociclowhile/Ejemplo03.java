@@ -25,7 +25,7 @@ public class Ejemplo03 {
             contador = contador + 1;
         }
         
-        System.out.printf("La suma final es %d\n", suma);
+        System.out.printf("La suma final es %d\n", suma); 
         
     }
 }

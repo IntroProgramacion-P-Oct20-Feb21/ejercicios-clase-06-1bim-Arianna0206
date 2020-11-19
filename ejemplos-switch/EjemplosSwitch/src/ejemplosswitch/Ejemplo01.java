@@ -63,7 +63,7 @@ public class Ejemplo01 {
                 
             default:
                 System.out.println("Operación incorrecta");
-                break;
+                break;  
              
         }
         // Escribir "El resultado de la operación es :" + resultado

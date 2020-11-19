@@ -27,7 +27,7 @@ public class Ejemplo06 {
         boolean bandera = true;
         
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        
+             //true
         while (bandera){
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
@@ -36,8 +36,11 @@ public class Ejemplo06 {
             // proceso para salir del ciclo.
             System.out.println("Ingrese el valor de -1 para salir del ciclo\n");
             int temporal = entrada.nextInt();
+            // temporal = 0
+            // 0 == -1
+            // Falso
             if(temporal==-1){
-                bandera = false;
+                bandera = false;  
             }
         }
         

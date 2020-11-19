@@ -65,7 +65,7 @@ public class UsoSwitch2 {
             
             default:
                 System.out.println("Opción incorrecta");
-                break;
+                break;      
         }
         
     }

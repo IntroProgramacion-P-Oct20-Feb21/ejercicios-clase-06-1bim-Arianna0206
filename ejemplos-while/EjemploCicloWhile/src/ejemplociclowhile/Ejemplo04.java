@@ -20,13 +20,16 @@ public class Ejemplo04 {
         int limite_superior = 20;
         int contador = 10;
         int suma = 0;
+        //       10     >=       10        and   10    <=       20
+        //               V                 and     V
+        //                                  V
         while (contador >= limite_inferior && contador <= limite_superior){
             suma = suma + contador;
             System.out.printf("Contador %d\n", contador);
-            contador = contador + 1;
+            contador = contador + 5; 
         }
         
-        System.out.printf("La suma final es %d\n", suma);
+        System.out.printf("La suma final es %d\n", suma); 
         
     }
 }

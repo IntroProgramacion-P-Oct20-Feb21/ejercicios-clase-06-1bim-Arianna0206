@@ -21,7 +21,8 @@ public class Ejemplo02 {
         
         while (contador <= limite){
             System.out.printf("Contador %d\n", contador);
-            contador = contador + 1;
+            contador = contador + 1;//incrementando el valor de contador
+            
         }
         
     }
